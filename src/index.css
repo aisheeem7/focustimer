@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Lavender Light Theme */
+    /* Light Theme */
     --background: 260 60% 98%;
     --foreground: 260 30% 20%;
 
@@ -37,7 +37,7 @@
 
     --radius: 1rem;
 
-    /* Custom Lavender Tokens */
+    /* Custom Tokens */
     --lavender-50: 260 60% 98%;
     --lavender-100: 260 55% 95%;
     --lavender-200: 260 50% 90%;
@@ -80,7 +80,7 @@
   }
 
   .dark {
-    /* Lavender Dark Theme */
+    /* Dark Theme */
     --background: 260 30% 10%;
     --foreground: 260 20% 92%;
 
@@ -109,7 +109,7 @@
     --input: 260 25% 22%;
     --ring: 260 45% 70%;
 
-    /* Custom Lavender Tokens - Dark */
+    /* Custom Tokens - Dark */
     --lavender-50: 260 30% 18%;
     --lavender-100: 260 28% 22%;
     --lavender-200: 260 26% 28%;
