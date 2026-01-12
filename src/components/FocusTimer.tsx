@@ -36,7 +36,7 @@ const FocusTimer = () => {
   const [focusElapsed, setFocusElapsed] = useState(0);
   const [breakTotalTime, setBreakTotalTime] = useState(0);
 
-  // Motivational popup state
+  // Popup state
   const [popupMessage, setPopupMessage] = useState("");
   const [showPopup, setShowPopup] = useState(false);
   const lastMessageTime = useRef(0);
@@ -62,7 +62,7 @@ const FocusTimer = () => {
     ? ((breakTotalTime - breakRemaining) / breakTotalTime) * 100
     : 0;
 
-  // Show motivational popup
+  // Show popup
   const showMotivationalPopup = useCallback((msg: string, duration = 4000) => {
     setPopupMessage(msg);
     setShowPopup(true);
